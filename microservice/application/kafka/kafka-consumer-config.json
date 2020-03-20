@@ -1,0 +1,63 @@
+{
+  "KafkaManagerOffsetCache": [
+    "__consumer_offsets"
+  ],
+  "JackpotService-[a-z-]*-1": [
+    "CurrencyChangeTopic",
+    "JackpotChangeTopic"
+  ],
+  "JackpotService-[a-z-]*-2": [
+    "CurrencyChangeTopic",
+    "JackpotChangeTopic"
+  ],
+  "wallet-service-[a-z-]*-1": [
+    "CREATE_PARTNER"
+  ],
+  "wallet-service-[a-z-]*-2": [
+    "CREATE_PARTNER"
+  ],
+  "report-service-[a-z-]*-1": [
+    "CurrencyChangeTopic"
+  ],
+  "report-service-[a-z-]*-2": [
+    "CurrencyChangeTopic"
+  ],
+  "GenPlusService": [
+    "GenPlusService",
+    "SecondaryDataWrite"
+  ],
+  "AccountService": [
+    "PlayerActionLogTopic"
+  ],
+  "tournamentService": [
+    "Tournament.tournament_fetch_init"
+  ],
+  "SecondaryWriters": [
+    "GenPlus.genCoinTransactionLog",
+    "GenPlus.boosterTransactionLog",
+    "GenPlus.lootBoxGameRound",
+    "JackpotLogTopic.payout",
+    "JackpotLogTopic.contribution",
+    "WalletLogTopic",
+    "SecondaryDataWrite",
+    "RoundHistory",
+    "ActionLogTopic",
+    "Tournament.award_record"
+  ],
+  "RgsNotification": [
+    "KrugSessions",
+    "GenPlus",
+    "NotificationCenter.source_distribution",
+    "Tournament.tournament_init",
+    "Tournament.update_tournament",
+    "Tournament.tournament_event_start",
+    "Tournament.tournament_event_end",
+    "Tournament.tournament_event_almost_start",
+    "Tournament.tournament_event_almost_end",
+    "Tournament.my_leaderboard",
+    "Tournament.update_leaderboard",
+    "Tournament.award",
+    "JackpotLogTopic.contribution",
+    "JackpotLogTopic.payout"
+  ]
+}
