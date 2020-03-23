@@ -1,25 +1,12 @@
 {
-  "KafkaManagerOffsetCache": [
-    "__consumer_offsets"
-  ],
-  "JackpotService-[a-z-]*-1": [
+  "JackpotService": [
     "CurrencyChangeTopic",
     "JackpotChangeTopic"
   ],
-  "JackpotService-[a-z-]*-2": [
-    "CurrencyChangeTopic",
-    "JackpotChangeTopic"
-  ],
-  "wallet-service-[a-z-]*-1": [
+  "wallet-service": [
     "CREATE_PARTNER"
   ],
-  "wallet-service-[a-z-]*-2": [
-    "CREATE_PARTNER"
-  ],
-  "report-service-[a-z-]*-1": [
-    "CurrencyChangeTopic"
-  ],
-  "report-service-[a-z-]*-2": [
+  "report-service": [
     "CurrencyChangeTopic"
   ],
   "'GenPlusService'": [
