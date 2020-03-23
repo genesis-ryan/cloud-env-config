@@ -22,7 +22,7 @@
   "report-service-[a-z-]*-2": [
     "CurrencyChangeTopic"
   ],
-  "GenPlusService": [
+  "'GenPlusService'": [
     "GenPlusService",
     "SecondaryDataWrite"
   ],
