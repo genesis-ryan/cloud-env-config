@@ -13,6 +13,15 @@
     "GenPlusService",
     "SecondaryDataWrite"
   ],
+  "GenRefreshCache":[ 
+    "CREATE_GAME",
+    "UPDATE_PARTNER_STATUS",
+    "UPDATE_PARTNER",
+    "UPDATE_GAME_FEATURE_STATUS",
+    "CREATE_PARTNER",
+    "OPERATE_GAME",
+    "UPDATE_PARTNER_GAME_CONFIG"
+  ],
   "AccountService": [
     "PlayerActionLogTopic"
   ],
