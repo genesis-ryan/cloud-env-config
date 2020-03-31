@@ -1,0 +1,31 @@
+#dev ################################################
+spring:
+  profiles: dev
+  zipkin:
+    base-url: http://172.16.50.71:9411
+    enabled: true
+    service:
+      name: ${spring.application.name}
+    locator:
+      discovery:
+        enabled: true
+  sleuth:
+    enabled: false
+    sampler.percentage: 1.0
+    scheduled:
+      enabled: true
+      skip-pattern: org.springframework.cloud.consul.discovery.ConsulCatalogWatch
+  data:
+    mongodb:
+      uri: mongodb://172.16.50.46/PartnerServices
+      database: PartnerServices
+zipkin.trace.enable: true
+brave.serverExcludePaths: /health
+
+kafka:
+  server: 172.16.50.36:9092,172.16.50.37:9092
+
+message.location: http://minisite.winden-solutions.com/i18n/i18n
+
+gateway-service.ribbon.listOfServers: http://172.16.50.52:8081
+
